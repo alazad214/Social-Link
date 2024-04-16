@@ -19,12 +19,12 @@ class HomePage extends StatelessWidget {
           child: ListView(
             children: [
               Padding(
-                padding: const EdgeInsets.symmetric(vertical: 30),
+                padding: const EdgeInsets.symmetric(vertical: 28),
                 child: Column(
                   children: [
                     //image section
-                    Image_slider(),
-                    SizedBox(height: 10),
+                    const Image_slider(),
+                    const SizedBox(height: 10),
                     const Text(
                       'Al Azad',
                       textAlign: TextAlign.center,

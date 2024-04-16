@@ -38,7 +38,7 @@ class _SplashState extends State<Splash> {
               height: screenSize.height / 1,
               alignment: Alignment.center,
               child: Center(
-                  child: Lottie.asset("assets/anim/social.json", height: 150)),
+                  child: Lottie.asset("assets/anim/social.json", height: 140)),
             )
           ],
         )),

@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(fontFamily: "Schyler", brightness: Brightness.dark),
-      home: Splash(),
+      home: const Splash(),
     );
   }
 }
